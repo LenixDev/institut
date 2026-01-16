@@ -1,3 +1,5 @@
+// ===== INTERFACE (another abstraction) =====
+
 interface Flyable {
   void fly();
 }

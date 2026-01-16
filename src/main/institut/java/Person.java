@@ -1,4 +1,5 @@
-package institut.person;
+// ===== CLASS & CONSTRUCTOR =====
+
 class Person {
     String name;
     int age;
