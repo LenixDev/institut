@@ -1,3 +1,4 @@
+package forme;
 class TestClassesAbstraites {
   public static void main(String[] args) {
 		//Forme forme = new Forme("rouge",0,0);//❌ERREUR

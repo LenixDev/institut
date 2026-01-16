@@ -1,3 +1,4 @@
+package forme;
 class Cercle extends Forme {
   private double rayon;
   private static final double PI = 3.14159;

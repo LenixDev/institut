@@ -1,3 +1,4 @@
+package forme;
 class Rectangle extends Forme {
   private double longueur, largeur;
   Rectangle(double longueur, double largeur, String couleur, double x, double y) {

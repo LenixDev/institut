@@ -1,5 +1,7 @@
 package espace;
 
+import forme.Rectangle;
+
 public class Surface {
 	private static int calcule(int a, int b) {
 		return (a + b) * 2;

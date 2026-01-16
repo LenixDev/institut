@@ -1,3 +1,4 @@
+package forme;
 class Triangle extends Forme {
   private double base, hauteur, cote1, cote2, cote3;
 

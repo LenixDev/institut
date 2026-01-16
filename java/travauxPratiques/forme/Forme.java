@@ -1,3 +1,4 @@
+package forme;
 abstract class Forme {
   protected String couleur;
   protected double x, y;
