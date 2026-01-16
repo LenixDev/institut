@@ -4,38 +4,38 @@ public class Client {
   private String nom;
   private String prenom;
   private int numero;
-  Client() {
+  protected Client() {
     this.nom = "";
     this.prenom = "";
     this.numero = 0;
   }
-  Client(String nom, String prenom, int numero) {
+  protected Client(String nom, String prenom, int numero) {
     this.nom = nom;
     this.prenom = prenom;
     this.numero = numero;
   }
-  public String getNom() {
+  protected String getNom() {
     return this.nom;
   }
-  public String getPrenom() {
+  protected String getPrenom() {
     return this.prenom;
   }
-  public int getNumero() {
+  protected int getNumero() {
     return this.numero;
   }
-  public void setNom(String nom) {
+  protected void setNom(String nom) {
     this.nom = nom;
   }
-  public void setPrenom(String prenom) {
+  protected void setPrenom(String prenom) {
     this.prenom = prenom;
   }
-  public void setNumero(int numero) {
+  protected void setNumero(int numero) {
     this.numero = numero;
+  }
+  protected void afficher() {
+    System.out.println("[Le client N° " + this.numero + " est : " + this.nom + " " + this.prenom + "]");
   }
   public String toString() {
     return "[Le client N° " + this.numero + " est : " + this.nom + " " + this.prenom + "]";
-  }
-  public void afficher() {
-    System.out.println("[Le client N° " + this.numero + " est : " + this.nom + " " + this.prenom + "]");
   }
 }
