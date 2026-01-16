@@ -1,4 +1,4 @@
-package diver;
+package diver.heriatage;
 
 public class ProduitNumerique extends Produit {
   private String lienTelechargement;

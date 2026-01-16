@@ -1,4 +1,4 @@
-package diver;
+package diver.heriatage;
 
 public class LivrePhyisque extends Produit {
   private double poids;

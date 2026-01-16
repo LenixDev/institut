@@ -1,4 +1,4 @@
-package diver;
+package diver.heriatage;
 
 public abstract class Produit {
   private int id;
